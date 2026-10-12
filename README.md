@@ -1,18 +1,29 @@
-## Getting Started
+# Expense Tracker
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Ung dung quan ly thu chi ca nhan chay tren dong lenh, viet bang Java.
 
-## Folder Structure
+## Tinh nang
+- Them khoan thu / khoan chi (so tien, danh muc, ghi chu, ngay)
+- Xem danh sach giao dich
+- Xoa giao dich theo ID
+- Thong ke tong thu, tong chi, so du
+- Luu va doc du lieu tu file CSV
 
-The workspace contains two folders by default, where:
+## Cong nghe
+- Java 21
+- OOP (class `Transaction`, `TransactionManager`)
+- Java I/O (doc/ghi file)
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Cach chay
+1. Cai JDK 21 tro len
+2. Clone repo:
+   git clone https://github.com/phamha422006/expense-tracker.git
+3. Bien dich va chay:
+   cd expense-tracker/src
+   javac *.java
+   java App
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Huong phat trien
+- Bat loi nhap lieu
+- Thong ke theo danh muc va theo thang
+- Nang cap len Spring Boot + database
